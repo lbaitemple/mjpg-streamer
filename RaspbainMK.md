@@ -18,5 +18,6 @@ sudo ./mjpg_streamer -i "./input_uvc.so -f 10 -r 640x320 -n -y" -o "./output_htt
 ```
 Install ROS
 ```
-apt install ros-desktop-full
+sudo apt install ros-desktop-full
+sudo apt install libopencv-dev liborocos-kdl-dev libompl-dev
 ```
