@@ -16,3 +16,7 @@ make
 sudo make install
 sudo ./mjpg_streamer -i "./input_uvc.so -f 10 -r 640x320 -n -y" -o "./output_http.so -w ./www -p 8080"
 ```
+Install ROS
+```
+apt install ros-desktop-full
+```
