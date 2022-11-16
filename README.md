@@ -60,11 +60,12 @@ Simple compilation
 ------------------
 
 This will build and install all plugins that can be compiled.
+```
     git clone -b rpi https://github.com/lbaitemple/mjpg-streamer
     cd mjpg-streamer-experimental
     make
     sudo make install
-    
+```    
 By default, everything will be compiled in "release" mode. If you wish to compile
 with debugging symbols enabled, you can do this:
 
