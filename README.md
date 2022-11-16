@@ -88,7 +88,10 @@ shows the basic steps to enable the experimental HTTP management feature:
     sudo make install
 
 
-
+Make sure enable camera in 
+```
+sudo raspi-config
+```
 add into the service
 ```
 sudo cp mjpg_streamer.service /lib/systemd/system
