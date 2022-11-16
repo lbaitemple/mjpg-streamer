@@ -87,6 +87,16 @@ shows the basic steps to enable the experimental HTTP management feature:
     make
     sudo make install
 
+
+
+add into the service
+```
+sudo cp mjpg_streamer.service /lib/systemd/system
+sudo systemctl daemon-reload
+sudo systemctl enable   mjpg_streamer
+sudo systemctl start   mjpg_streamer
+```
+
 Usage
 =====
 From the mjpeg streamer experimental
