@@ -94,11 +94,6 @@ folder:
 export LD_LIBRARY_PATH=.
 ./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so"
 ```
-Or you can 
-```
-export LD_LIBRARY_PATH=.
-./mjpg_streamer -i "./input_uvc.so -f 10 -r 640x320 -n -y" -o "./output_http.so -w ./www -p 8080"
-```
 
 See [README.md](mjpg-streamer-experimental/README.md) or the individual plugin's documentation for more details.
 
